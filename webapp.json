@@ -83,6 +83,7 @@
       },
       "type": "Microsoft.Web/serverfarms",
       "location": "[resourceGroup().location]",
+      "kind": "linux",
       "sku": {
         "name": "[parameters('sku')]",
         "capacity": "[parameters('workerSize')]"
